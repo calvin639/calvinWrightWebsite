@@ -1,0 +1,136 @@
+body{
+	font-family: 'Roboto Slab', serif;
+	margin:0 auto;
+	width:960px;
+}
+h1{
+	font-family: 'Roboto Slab', serif;
+}
+h1,h2,h3{
+	color:brown;
+}
+
+.centered {  
+ text-align:center;
+ left: 50%;
+}
+
+ul{
+	list-style-image:url("img/blogBullet.gif");
+}
+a:link,a:visited{
+	text-decoration:none;
+	color:brown;
+	font-weight:bold;
+}
+a:hover{
+	color:black
+}
+nav ul{
+	list-style-type:none;
+	padding:0;
+}
+nav li{
+	display:inline;
+	float:right;
+}
+
+nav ol{
+	display:inline;
+}
+
+nav a:link,nav a:visited{
+	background-color:brown;
+	color:white;
+	display:block;
+	width:160px;
+	text-align:center;
+	padding:10px 0;
+}
+nav a:hover{
+	background-color:black;
+}
+aside{
+	width:290px;
+	float:right;
+	background-color:darksalmon;
+	font-weight:bold;
+	padding:10px;
+	margin-left:20px;
+}
+.photo-left{
+	float:left;
+	margin-right:20px;
+}
+.photo-right{
+	float:right;
+	margin-left:20px;
+}
+.photo-centre{
+	float:center;
+	margin-left:20px;
+	margin-right:20px;
+	text-align:center;
+}
+header{
+	background-image:url("img/bojack.jpg");
+	height:110px;
+	margin-bottom:20px;
+}
+header h1{
+	color:rgba(256,256,256,.8);
+	margin-left:30px;
+	margin-top:30px;
+	font-size:50px;
+}
+footer{
+	margin:40px 0;
+}
+
+footer nav a:link, footer nav a:visited{
+	background-color:white;
+	color:gray;
+	display:block;
+	width:160px;
+	text-align:center;
+	padding:10px 0;
+}
+footer nav a:hover{
+	color:black;
+}
+td, th{
+	border:1px solid black;
+	width:20%;
+	text-align:center;
+	paddin:5px;
+}
+table{
+	border-collapse:collapse;
+}
+
+.formy {
+    position: relative; 
+	opacity: 0.999;
+}
+
+.formy::before{    
+      content: "";
+      background-image: url('img/coffee-cup.png');
+      background-repeat: repeat;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.1;
+}
+
+fieldset{
+	opacity:0.999;
+}
+video{
+	margin-bottom:25px;
+	margin-left:160px;
+	-moz-filter:grayscale(100%);
+	filter:grayscale(10%);
+}
