@@ -27,12 +27,13 @@ a:hover{
 	color:black
 }
 nav ul{
+	display:inline;
 	list-style-type:none;
 	padding:0;
 }
 nav li{
 	display:inline;
-	float:right;
+	float:left;
 }
 
 nav ol{
@@ -58,6 +59,11 @@ aside{
 	padding:10px;
 	margin-left:20px;
 }
+
+aside right{
+	float:left;
+}
+
 .photo-left{
 	float:left;
 	margin-right:20px;
@@ -66,7 +72,7 @@ aside{
 	float:right;
 	margin-left:20px;
 }
-.photo-centre{
+.photo-center{
 	float:center;
 	margin-left:20px;
 	margin-right:20px;
@@ -133,4 +139,13 @@ video{
 	margin-left:160px;
 	-moz-filter:grayscale(100%);
 	filter:grayscale(10%);
+}
+
+div {
+	text-align:center;
+}
+
+table caption{
+	font-size:24px;
+	font-weight:bold;
 }
