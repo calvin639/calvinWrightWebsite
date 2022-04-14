@@ -15,9 +15,11 @@ h1,h2,h3{
  left: 50%;
 }
 
-ul{
+ul.blogs{
 	list-style-image:url("img/blogBullet.gif");
+	line-height:3;
 }
+
 a:link,a:visited{
 	text-decoration:none;
 	color:brown;
@@ -148,4 +150,50 @@ div {
 table caption{
 	font-size:24px;
 	font-weight:bold;
+}
+
+ul.no-bullets{
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+.date {
+	font-size:10px;
+}
+.comment{
+	display: flex;
+	flex-wrap: wrap;
+	border:1px solid red;
+	padding: 20px;
+	border-radius: 5px;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:300px
+}
+div.comment.user_comments{
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-left:5px;	
+	background-color:lightsalmon;
+}
+
+div.my_comments{
+	float:right;
+	flex-direction: row-reverse;
+	text-align:right;
+	margin-right:5px;
+	background-color:darksalmon;
+}
+
+div.comment_msg{
+	order: 1;
+	flex: 1 0 100%;
+}
+
+div.comment_cont{
+	margin:3px;
+}
+
+h4.pic_title{
+	margin-top:0px;
 }
