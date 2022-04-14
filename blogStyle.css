@@ -1,0 +1,53 @@
+body{
+	font-family: 'Roboto Slab', serif;
+	margin:0 auto;
+	width:960px;
+}
+
+a:link,a:visited{
+	text-decoration:none;
+	color:brown;
+	font-weight:bold;
+}
+a:hover{
+	color:black
+}
+nav ul{
+	display:inline;
+	list-style-type:none;
+	padding:0;
+}
+nav li{
+	display:inline;
+	float:left;
+}
+
+nav ol{
+	display:inline;
+}
+
+nav a:link,nav a:visited{
+	background-color:brown;
+	color:white;
+	display:block;
+	width:157px;
+	text-align:center;
+	padding:10px 0;
+}
+nav a:hover{
+	background-color:black;
+}
+
+header{
+	background-image:url("img/bojack.jpg");
+	height:110px;
+	margin-bottom:20px;
+}
+
+header h1{
+	color:rgba(256,256,256,.8);
+	margin-left:30px;
+	margin-top:30px;
+	font-size:50px;
+}
+
