@@ -10,6 +10,10 @@ h1,h2,h3{
 	color:brown;
 }
 
+.footsy{
+	clear: both;
+}
+
 .centered {  
  text-align:center;
  left: 50%;
@@ -54,11 +58,14 @@ nav a:hover{
 	background-color:black;
 }
 aside{
-	width:290px;
+	width:400px;
+	font-size:19px;
+	text-align:center;
+	font-family:josefin-slab;
 	float:right;
 	background-color:darksalmon;
 	font-weight:bold;
-	padding:10px;
+	padding:0px;
 	margin-left:20px;
 }
 
@@ -197,3 +204,27 @@ div.comment_cont{
 h4.pic_title{
 	margin-top:0px;
 }
+
+.skill-table {
+    border-collapse: collapse;
+    margin: 5px 0;
+    font-size: 0.7em;
+    font-family: sans-serif;
+    width: 500px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.skill-table tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.skill-table th {
+    background-color:#0CB24E;
+    color: #000000;
+	font-style:bold;
+}
+
+.skill-table th, .skill-table td {
+    padding: 12px 15px;
+}
+
